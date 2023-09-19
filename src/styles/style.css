@@ -20,19 +20,25 @@ blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
 table{border-collapse:collapse;border-spacing:0}
 
+
 .container {
   width: 100%;
-  max-width: 1130px;
+  max-width: 1140px;
   margin: 0 auto;
-  padding: 0 15;
+  padding: 0 15px;
 }
 
 body {
-  
+  background-image: url(../images/background.png);
 }
 
 header{
-  background-image: url(../images/background.png);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 914px;
+  background-image: url(../images/main.png);
+  background-position: left -1880% bottom 115%;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -42,4 +48,5 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 86.4px;
+  margin-top: 100px;
 }
